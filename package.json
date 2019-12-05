@@ -2,7 +2,7 @@
   "name": "tissue_backend",
   "version": "1.0.0",
   "description": "Titan Issue Tracker Backend",
-  "main": "server.js",
+  "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,11 @@
     "body-parser": "^1.19.0",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
-    "issue-manager": "file:../issue-manager/issue-manager-1.0.0.tgz",
+    "issue-manager": "file:../tissue_backend/issue-manager/issue-manager-1.0.0.tgz",
     "mongodb": "^3.1.9",
     "mongoose": "^5.7.12"
+  },
+  "engines": {
+    "node": "10.16.1"
   }
 }
