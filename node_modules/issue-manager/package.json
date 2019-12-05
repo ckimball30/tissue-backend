@@ -1,0 +1,43 @@
+{
+  "_from": "file:..\\issue-manager\\issue-manager-1.0.0.tgz",
+  "_id": "issue-manager@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-C+lfGn+be29zwhZmPitkEY+OFUFQ1jplilAHkfK6F5a/vwy/c3d4vmO2xOMe87GsxVofeA6/dV7Q0I0kme+7UA==",
+  "_location": "/issue-manager",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "C:\\Users\\Student\\Desktop\\tissue_backend",
+    "raw": "..\\issue-manager\\issue-manager-1.0.0.tgz",
+    "rawSpec": "..\\issue-manager\\issue-manager-1.0.0.tgz",
+    "saveSpec": "file:..\\issue-manager\\issue-manager-1.0.0.tgz",
+    "fetchSpec": "C:\\Users\\Student\\Desktop\\issue-manager\\issue-manager-1.0.0.tgz"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "C:\\Users\\Student\\Desktop\\issue-manager\\issue-manager-1.0.0.tgz",
+  "_shasum": "be3dff593b0066b41b0cb9a1a4e8f7a6bcb7e52b",
+  "_spec": "..\\issue-manager\\issue-manager-1.0.0.tgz",
+  "_where": "C:\\Users\\Student\\Desktop\\tissue_backend",
+  "author": {
+    "name": "Chris Kimball"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "issue manager",
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "ISC",
+  "main": "issue.js",
+  "name": "issue-manager",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "mongodb": "^3.3.5"
+  }
+}
